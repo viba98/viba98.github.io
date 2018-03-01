@@ -1,189 +1,174 @@
 body{
   font-family: 'Roboto ', sans-serif;
-  margin: 0;
+  color: #3a3a3a;
 }
 
-h1{
-  font-weight: 900;
-  font-size: 55px;
-  text-align: left;
-  left: 0;
-  clear: left;
-}
-
-h2{
-  font-weight: 900;
-  font-size: 20px;
-  padding: 18px;
-  margin: 0;
-}
-
-.nav{
- width: 100%;
- margin: 0;
- height: 50px;
- top: 0;
- position: fixed;
- background-color: white;
- z-index: 9;
- padding-bottom: 10px;
-}
-
-#nav:hover{
-  cursor: pointer;
-
+li{
+  display: inline;
+  list-style-type: none;
 }
 
 .left{
-    float: left;
-    color: black;
+  float: left;
+
 }
 
-.left:hover{
-  text-decoration: underline;
-  transition: ease;
-}
-
-.res{
+.right{
   float: right;
-  color: rgba(0, 0, 0, 0.5);
+  padding-right: 60px;
 }
 
-.res:hover{
-  color: black;
-  text-decoration: underline;
-  transition: ease;
+#nav{
+  position: sticky;
+  margin-top: 70px;
+  padding: 20px;
+  margin-left: 110px;
+  margin-right: 110px;
 }
 
-.content{
-  width: 80%;
-  margin: 10%;
-  padding-top: 70px;
-
+h1{
+  margin-left: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+  line-height: 0.5em;
 }
 
-.vr{
-  border-left: 2px solid black;
-    height: 80px;
-    display: inline-block;
-}
-
-p{
-  font-size: 32px;
-  line-height: 48px;
-  font-weight: normal;
-}
-
-.sub{
-  font-size: 24px;
-  font-weight: lighter;
-}
-
-.hook{
-  text-align: center;
-}
-
-img{
-  width: 300px;
-  height: 300px;
-  position:absolute;
-  z-index:1;
-}
-
-img:hover{
-
-}
-.text {
-  color: black;
-  font-size: 16px;
-  padding: 16px 32px;
-  vertical-align: middle;
+#nav .left li a{
+  font-family: 'Roboto ', sans-serif;
+  font-weight: 600;
+  padding-right: 40px;
+  color: #a0a0a0;
   text-decoration: none;
 }
 
-tr{
-  padding-bottom: 0px;
+#nav .left li a:hover{
+  color: #3a3a3a;
+  cursor: pointer;
 }
 
-td{
-  padding: 55px;
-  padding-bottom: 0px;
-
-}
-
-td:hover img{
-  opacity: 0.3;
+#nav .left li a:active{
+  color: #3a3a3a;
 
 }
 
-.middle {
-  opacity: 0;
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  vertical-align: middle;
-  padding-top: 80px;
-}
-
-td:hover .middle {
-  opacity: 1;
-}
-
-.contact{
-  background: url('https://daks2k3a4ib2z.cloudfront.net/58cd58bedf096f593816e18e/58d1cbabeff947c0347c9657_dotted-bg-white-grey.png');
-  background-repeat: repeat;
-  padding: 50px;
-}
-
-.box{
-  width: 85%;
-  margin: 5%;
-  box-shadow: 2px 2px 25px #999999 ;
-  background-color: white;
-  padding: 40px;
-  padding-bottom: 100px;
-  padding-left: 80px;
-}
-
-button{
-  padding: 10px 20px ;
-  background-color: black;
-  color: white;
-  font: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  border: none;
-  box-shadow: 2px 2px 5px black ;
-}
-
-#sm{
-  width: 100%;
-  padding-bottom: 50px;
-  padding-left: 50px;
-}
-
-i{
-  color: black;
-  opacity: 0.8;
-  border-radius: 50%;
-  display: inline-block;
-  padding: 60px;
-  padding-top: 20px;
-  text-align: center;
-  float: left;
+a{
+  text-decoration: none;
+  color: #3a3a3a;
 }
 
 i:hover{
-  opacity: 1;
+  color: #3a3a3a;
+  cursor: pointer;
 }
 
-.subs{
-  font-size: 22px;
-  font-weight: 400;
+hr{
+  width: 88%;
+  margin-left: 60px;
+  margin-right:90px;
+}
+
+i{
+  color: grey;
+  padding: 10px;
+  padding-left: 40px;
+  color: #a0a0a0;
+}
+
+section{
+  margin-top: 100px;
+  padding: 100px;
+}
+
+.pieces p{
+  margin-left: 10%;
+  width: 75%;
+}
+
+h2{
+  line-height: 30px;
+  margin-left: 10%;
+}
+
+img{
+  margin-left: 40%;
+  box-shadow: #a0a0a0 -5px 5px 15px;
+  width: 300px;
+}
+
+button{
+  margin-top: 60px;
+  margin-left: 10%;
+  clear: both;
+  float: left;
+  padding: 10px;
+  background-color: white;
+  border-width: 1px;
+  box-shadow: none;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.six{
+  width: 50%;
+  float: left;
+}
+
+.one{
+  width: 10%;
+}
+.five{
+  width: 40%;
+  float: left;
+}
+
+#work{
+  margin: 70px auto 100px;
+}
+
+.pieces{
+  padding-top: 70px;
+  margin-top: 20px;
+  clear: both;
+}
+
+#about{
+  margin-top: 200px;
+}
+
+h3{
+  margin-left: 10%;
+}
+
+#about{
+  margin-bottom: 300px;
+}
+
+p{
+  line-height: 30px;
+}
+
+.me{
+  margin-bottom: 100px;
+}
+
+.pieces:hover {
+
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.03);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.03);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.03);
+    transition: all 200ms ease-in;
+    transform: scale(1.03);
 }
 
 button:hover{
-  padding: 15px 25px;
   cursor: pointer;
-  transition: 0.2s ease;
+}
+
+.pieces i{
+  margin-left: 4%;
 }
