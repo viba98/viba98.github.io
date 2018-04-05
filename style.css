@@ -8,6 +8,11 @@ li{
   list-style-type: none;
 }
 
+pre{
+  float: left;
+  margin-left: 65px;
+}
+
 .left{
   float: left;
 
