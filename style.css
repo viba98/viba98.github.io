@@ -1,179 +1,69 @@
 body{
-  font-family: 'Roboto ', sans-serif;
-  color: #3a3a3a;
+  background-image: url('bgw.jpg');
+  background-size: 80px;
+  color: #3b3b3b;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 li{
-  display: inline;
-  list-style-type: none;
-}
-
-pre{
-  float: left;
-  margin-left: 65px;
-}
-
-.left{
-  float: left;
-
-}
-
-.right{
-  float: right;
-  padding-right: 60px;
+  font-weight: 700;
+  font-style: italic;
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  font-size: 22px;
 }
 
 #nav{
-  position: sticky;
-  margin-top: 70px;
-  padding: 20px;
-  margin-left: 110px;
-  margin-right: 110px;
+  float: right;
+  margin: 50px 100px;
 }
 
-h1{
-  margin-left: 35px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  font-size: 3em;
-  line-height: 0.5em;
+#main{
+  margin-left: 10%;
+  padding-top: 15%;
+  width: 65%;
 }
 
-#nav .left li a{
-  font-family: 'Roboto ', sans-serif;
-  font-weight: 600;
-  padding-right: 40px;
-  color: #a0a0a0;
-  text-decoration: none;
+h1 {
+  font-family:'Helvetica', 'Arial', sans-serif; font-weight:700;
+  letter-spacing: 7px;
+  font-size: 50px;
+  border-bottom: 10px solid #ffce20;
 }
 
-#nav .left li a:hover{
-  color: #3a3a3a;
-  cursor: pointer;
+.head{
+  width: 64%;
+  margin-bottom: 60px;
+
 }
 
-#nav .left li a:active{
-  color: #3a3a3a;
+p{
 
+  font-size: 15px;
+}
+
+p a{
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
 }
 
 a{
   text-decoration: none;
-  color: #3a3a3a;
 }
 
-i:hover{
-  color: #3a3a3a;
-  cursor: pointer;
+a::after{
+  width:0;
 }
 
-hr{
-  width: 88%;
-  margin-left: 60px;
-  margin-right:90px;
+a:hover{
+width: 100%;
+background-color: #ffce20;
+color: black;
+transition: width 0.3s;
 }
 
-i{
-  color: grey;
-  padding: 10px;
-  padding-left: 40px;
-  color: #a0a0a0;
-}
-
-section{
-  margin-top: 100px;
-  padding: 100px;
-}
-
-.pieces p{
-  margin-left: 10%;
-  width: 75%;
-}
-
-h2{
-  line-height: 30px;
-  margin-left: 10%;
-}
-
-img{
-  margin-left: 40%;
-  box-shadow: #a0a0a0 -5px 5px 15px;
-  width: 300px;
-}
-
-button{
-  margin-top: 60px;
-  margin-left: 10%;
-  clear: both;
-  float: left;
-  padding: 10px;
-  background-color: white;
-  border-width: 1px;
-  box-shadow: none;
-  border-style: solid;
-  border-radius: 5px;
-}
-
-.six{
-  width: 50%;
-  float: left;
-}
-
-.one{
-  width: 10%;
-}
-.five{
-  width: 40%;
-  float: left;
-}
-
-#work{
-  margin: 70px auto 100px;
-}
-
-.pieces{
-  padding-top: 70px;
-  margin-top: 20px;
-  clear: both;
-}
-
-#about{
-  margin-top: 200px;
-}
-
-h3{
-  margin-left: 10%;
-}
-
-#about{
-  margin-bottom: 300px;
-}
-
-p{
-  line-height: 30px;
-}
-
-.me{
-  margin-bottom: 100px;
-}
-
-.pieces:hover {
-
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.03);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.03);
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.03);
-    transition: all 200ms ease-in;
-    transform: scale(1.03);
-}
-
-button:hover{
-  cursor: pointer;
-}
-
-.pieces i{
-  margin-left: 4%;
+pre{
+  font-size: 2px;
 }

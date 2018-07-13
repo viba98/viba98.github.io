@@ -1,0 +1,150 @@
+body{
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+}
+
+
+#block{
+  margin-left: 12%;
+  margin-top: 3%;
+  width: 75%;
+  padding: 20px 0;
+  padding-bottom: 12%;
+}
+
+.glyphicon{
+  margin-left: 12%;
+  margin-top: 5%;
+  font-size: 22px;
+}
+
+a i:hover{
+  background-color: none;
+}
+
+.wrk{
+  border-bottom: 5px solid #ffce20;
+}
+/* td{
+  padding: 20px 30px;
+  width: 50%;
+}
+
+.piece{
+  clear: both;
+}
+
+.about {
+  float: right;
+  width: 50%;
+}
+
+.imgs{
+  float: right;
+}
+
+.txt{
+  padding: 10px 45px;
+}
+*/
+
+img{
+  width: 100%;
+}
+
+div a:hover{
+  text-decoration: none;
+  background: #ffce20;
+}
+
+.left{
+  float: left;
+
+}
+
+.right{
+  float: right;
+  padding-right: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+i{
+  color: grey;
+  padding: 10px;
+  padding-left: 40px;
+  color: #3b3b3b;
+}
+
+i:hover{
+  background: none;
+}
+
+.pieces p{
+  margin-left: 10%;
+  width: 75%;
+}
+
+h2{
+  line-height: 30px;
+  margin-left: 10%;
+}
+
+img{
+  margin-left: 40%;
+  box-shadow: #a0a0a0 -5px 5px 15px;
+  width: 300px;
+}
+
+button{
+  margin-top: 60px;
+  margin-left: 10%;
+  clear: both;
+  float: left;
+  padding: 10px;
+  background-color: white;
+  border-width: 1px;
+  box-shadow: none;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.six{
+  width: 50%;
+  float: left;
+}
+
+.one{
+  width: 10%;
+}
+.five{
+  width: 40%;
+  float: left;
+}
+
+#work{
+  margin: 70px auto 100px;
+}
+
+.pieces{
+  padding: 70px 0;
+  margin-top: 20px;
+  clear: both;
+}
+
+button:hover{
+  cursor: pointer;
+  border-color: #ffce20;
+  color: #ffce20;
+}
+
+.pieces i{
+  margin-left: 4%;
+}
+
+p{
+  line-height: 30px;
+}
